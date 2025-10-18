@@ -8530,139 +8530,59 @@ button.swiper-pagination-bullet {
                 height: 685px;
             }
         }
-.btn-outline-primary {
-            color: var(--color-primary) !important;
-            border-color: var(--color-primary) !important;
-        }
 
-        .btn:hover {
-            background-color: var(--color-primary) !important;
-            color: #ffffff !important;
-        }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
-        .navbar-brand img {
-            max-height: 3rem;
-            width: auto;
-            max-width: 100px;
-        }
+/* Carousel specific fixes */
+.s-block--testimonials {
+    width: 100%;
+    overflow: hidden;
+}
 
-        .bg-primary {
-            background-color: var(--color-primary) !important;
-        }
+.owl-carousel {
+    width: 100%;
+    padding: 0 10px; /* Add horizontal padding */
+}
+/* Ensure items don't exceed container */
+.owl-item {
+    max-width: 100%;
+}
+.owl-carousel-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
-        .price-text-discount {
-            color: var(--price-text-discount);
-        }
+.owl-stage-outer {
+    overflow: hidden !important;
+    padding: 10px 5px; /* Add some padding */
+}
 
+.owl-item {
+    padding: 0 8px; /* Space between items */
+}
 
+/* Ensure the section doesn't overflow */
+.product-slider-sky {
+    overflow: hidden;
+    width: 100%;
+}
 
+/* Container constraints */
+.nc-p-l-container {
+    max-width: 100%;
+    overflow: hidden;
+}
 
-        * {
-            font-family: 'Baloo Bhaijaan 2', sans-serif;
-        }
+/* Product card constraints */
+.s-product-card-entry {
+    max-width: 100%;
+    overflow: hidden;
+}
 
-
-        .main-menu .sub-menu {
-            background-color: var(--bg-color-navbar);
-        }
-
-        .store-footer {
-            margin-top: 0px;
-        }
-
-        @media (min-width: 640px) {
-            .store-footer {
-                margin-top: 0rem;
-            }
-        }
-
-        .height-product-card {
-            height: 100%;
-        }
-
-        .height-product-info {
-            height: 12.5rem
-        }
-
-        .product_image_size {
-            height: 250px
-        }
-
-        .bg-footer-color {
-            background-color: var(--bg-footer-color) !important;
-        }
-
-        .text-footer-color {
-            color: var(--text-footer-color);
-        }
-
-        .bg-footer-bottom-bar {
-            background-color: var(--bg-footer-bottom-bar) !important;
-        }
-
-
-        .nav-border {
-            border-bottom-width: 1px;
-            border-top-width: 1px;
-            border-color: var(--border-color-nav);
-        }
-
-        .bg-top-bar {
-            background-color: var(--bg-top-bar-color) !important;
-        }
-
-        .text-top-bar {
-            color: var(--text-top-bar-color);
-        }
-
-        .promo-title-style-color {
-            color: var(--promo-title-text-color);
-            background-color: var(--promo-title-bg-color);
-        }
-
-
-        .s-product-card-out-of-stock img.loaded {
-            filter: grayscale(100);
-        }
-
-        .display-image-product-card {
-            object-fit: cover
-        }
-
-        .button-style {
-            background-color: var(--bg-color-button);
-            color: #ffffff;
-            border: solid 1px none;
-
-        }
-
-        .button-style:hover {
-            background-color: var(--bg-color-button-hover);
-            color: var(--text-color-button-hover);
-        }
-
-
-        @keyframes pulse {
-
-            0%,
-            100% {
-                opacity: 1;
-            }
-
-            50% {
-                opacity: .5;
-            }
-        }
-
-        .shape-product-card {
-            height: 480px
-        }
-
-        .bg_info_product_card {
-            background-color: var(--bg-product-card);
-        }
-<!-- owl style -->
-    
         /* Position navigation arrows on the sides */
         .owl-carousel .owl-nav {
             position: absolute;
@@ -8715,4 +8635,4 @@ button.swiper-pagination-bullet {
         .owl-carousel .item {
             display: block !important;
         }
-     
+ 
