@@ -8531,6 +8531,272 @@ button.swiper-pagination-bullet {
             }
         }
 
+.btn-outline-primary {
+            color: var(--color-primary) !important;
+            border-color: var(--color-primary) !important;
+        }
+
+        .btn:hover {
+            background-color: var(--color-primary) !important;
+            color: #ffffff !important;
+        }
+
+        .navbar-brand img {
+            max-height: 3rem;
+            width: auto;
+            max-width: 100px;
+        }
+
+        .bg-primary {
+            background-color: var(--color-primary) !important;
+        }
+
+        .price-text-discount {
+            color: var(--price-text-discount);
+        }
+
+
+
+
+        * {
+            font-family: 'Baloo Bhaijaan 2', sans-serif;
+        }
+
+
+        .main-menu .sub-menu {
+            background-color: var(--bg-color-navbar);
+        }
+
+        .store-footer {
+            margin-top: 0px;
+        }
+
+        @media (min-width: 640px) {
+            .store-footer {
+                margin-top: 0rem;
+            }
+        }
+
+        .height-product-card {
+            height: 100%;
+        }
+
+        .height-product-info {
+            height: 12.5rem
+        }
+
+        .product_image_size {
+            height: 250px
+        }
+
+        .bg-footer-color {
+            background-color: var(--bg-footer-color) !important;
+        }
+
+        .text-footer-color {
+            color: var(--text-footer-color);
+        }
+
+        .bg-footer-bottom-bar {
+            background-color: var(--bg-footer-bottom-bar) !important;
+        }
+
+
+        .nav-border {
+            border-bottom-width: 1px;
+            border-top-width: 1px;
+            border-color: var(--border-color-nav);
+        }
+
+        .bg-top-bar {
+            background-color: var(--bg-top-bar-color) !important;
+        }
+
+        .text-top-bar {
+            color: var(--text-top-bar-color);
+        }
+
+        .promo-title-style-color {
+            color: var(--promo-title-text-color);
+            background-color: var(--promo-title-bg-color);
+        }
+
+
+        .s-product-card-out-of-stock img.loaded {
+            filter: grayscale(100);
+        }
+
+        .display-image-product-card {
+            object-fit: cover
+        }
+
+        .button-style {
+            background-color: var(--bg-color-button);
+            color: #ffffff;
+            border: solid 1px none;
+
+        }
+
+        .button-style:hover {
+            background-color: var(--bg-color-button-hover);
+            color: var(--text-color-button-hover);
+        }
+
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: .5;
+            }
+        }
+
+        .shape-product-card {
+            height: 480px
+        }
+
+        .bg_info_product_card {
+            background-color: var(--bg-product-card);
+        }
+.toast {
+            backdrop-filter: blur(80px) !important;
+
+        }
+
+        .toast * {
+            position: unset !important;
+
+        }
+
+        .toast .text-primary {
+            padding-right: 10px !important
+        }
+
+        .text-primary {
+            /* color: var(--theme-color) !important; */
+            color: #424041
+        }
+
+        .border-primary {
+            border-color: var(--theme-color) !important;
+        }
+ @media (min-width: 1024px) {
+            .sidebar-products .s-products-list-vertical-cards {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 0.625rem;
+            }
+        }
+
+
+        .price-text {
+            color: var(--theme-color) !important;
+        }
+
+
+        @media (max-width: 768px) {
+            .swiper-per-view .swiper-slide {
+                width: 182px !important;
+            }
+        } .truncate {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        @media (min-width: 1024px) {
+            .fixed-product-price .s-products-list-vertical-cards {
+                grid-template-columns: repeat(6, minmax(0, 1fr));
+                gap: 0.625rem
+            }
+        }
+
+        @media (min-width: 380px) and (max-width: 479px) {
+            .fixed-product-price .s-products-list-vertical-cards {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+.ramadan-banner {
+            width: 100%;
+            height: 300px;
+            top: 69px;
+        }
+
+
+        .banner-section {
+            height: 285px;
+        }
+
+        @media (min-width: 1024px) {
+            .ramadan-banner {
+                width: 50%;
+                top: 70px;
+            }
+
+            .banner-section {
+                height: 685px;
+            }
+        }
+        .offline {
+            position: relative;
+        }
+
+        .offline::before {
+            content: "Offline Mode";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #f44336;
+            color: white;
+            padding: 5px;
+            text-align: center;
+            z-index: 9999;
+            font-size: 12px;
+        }
+        #otp_modal .modal-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        #otp_modal .modal-body {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        #otp_modal .modal-footer {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #otp_modal .btn {
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+        }
+
+        /* Chrome, Safari, Edge, Opera */
+        #otp_modal input::-webkit-outer-spin-button,
+        #otp_modal input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        #otp_modal input[type=number] {
+            -moz-appearance: textfield;
+        }
+
+        #otp_modal .modal-header {
+            border: unset;
+        }
+
+        .input-group-lg {
+            height: 46px;
+        }
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
