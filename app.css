@@ -8653,65 +8653,7 @@ button.swiper-pagination-bullet {
         .bg_info_product_card {
             background-color: var(--bg-product-card);
         }
-        .toast {
-            backdrop-filter: blur(80px) !important;
 
-        }
-
-        .toast * {
-            position: unset !important;
-
-        }
-
-        .toast .text-primary {
-            padding-right: 10px !important
-        }
-
-        .text-primary {
-            /* color: var(--theme-color) !important; */
-            color: #424041
-        }
-
-        .border-primary {
-            border-color: var(--theme-color) !important;
-        }
-
-        .price-text {
-            color: var(--theme-color) !important;
-        }
-
-
-        @media (max-width: 768px) {
-            .swiper-per-view .swiper-slide {
-                width: 182px !important;
-            }
-        } .truncate {
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
-
-      .ramadan-banner {
-            width: 100%;
-            height: 300px;
-            top: 69px;
-        }
-
-
-        .banner-section {
-            height: 285px;
-        }
-
-        @media (min-width: 1024px) {
-            .ramadan-banner {
-                width: 50%;
-                top: 70px;
-            }
-
-            .banner-section {
-                height: 685px;
-            }
-        }
         .offline {
             position: relative;
         }
