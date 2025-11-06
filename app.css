@@ -8813,6 +8813,16 @@ button.swiper-pagination-bullet {
             }
 
         }
+            .details-slider .item img {
+              height: 300px;
+              object-fit: cover;
+              width: 100%;
+        }
+
+        @media (min-width: 768px) {
+            .details-slider .item img {
+                height: 600px;
+            }
+        }
              
-    /*  */
     
