@@ -8976,7 +8976,7 @@ button.swiper-pagination-bullet {
             
             
             
-              /* product page/ Small devices */
+              /* Category page/ Small devices */
             @media (min-width: 380px) and (max-width: 639px) {
               .s-products-list-vertical-cards,
               .fixed-product-price .s-products-list-vertical-cards {
